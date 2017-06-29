@@ -1,0 +1,14 @@
+{
+    "name": "aslan-pc1/isaquebritos",
+    "authors": [
+        {
+            "name": "42143",
+            "email": "aslan-k@hotmail.com"
+        }
+    ],
+    "autoload": {
+        "psr-4" : {
+            "Britos\\" : "src/"
+        }
+    }
+}
