@@ -1,6 +1,8 @@
 // VARIAVEIS 
-    @import "../helpers/variables";
+    @import "../helpers/variaveis";
 //MIXIN
-    @import "../helpers/mixin";  
-
-header{position:fixed}
+   //@import "../helpers/mixin";  
+//
+header{position:fixed;top:0px;
+    .container-fluid{background: $CORBRANCO;}
+}

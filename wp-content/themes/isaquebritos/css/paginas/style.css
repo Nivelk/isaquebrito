@@ -6,3 +6,5 @@ Author: Nivelk Agência digital
 Author URI: http://www.nivelk.com.br
 Version: 0.1
 */ 
+@import url('../layout/header.css');
+html{background:#999999;}
