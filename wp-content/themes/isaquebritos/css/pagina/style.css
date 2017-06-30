@@ -1,2 +1,2 @@
-*{padding:0px;margin:0px}html,body{overflow-x:hidden}.main header{position:fixed;top:0px;width:100%;z-index:100}.main header .container-fluid{background:rgba(255,255,255,0.5)}.main .container-fluid{z-index:1}.main .container-fluid .row .col-12{padding:0px}.main .container-fluid .row .pequisa{background:rgba(0,0,0,0.5)}
+*{padding:0px;margin:0px}html,body{overflow-x:hidden;background-color:#EEEBE8}.main header{position:fixed;top:0px;width:100%;z-index:100}.main header .container-fluid{background:rgba(255,255,255,0.5);box-shadow:0px 8px 10px rgba(0,0,0,0.5)}.main .container-fluid{z-index:1}.main .container-fluid .row .col-12{padding:0px}.main .container-fluid .row .buscar{background:rgba(0,0,0,0.5);height:100px}
 /*# sourceMappingURL=style.css.map */

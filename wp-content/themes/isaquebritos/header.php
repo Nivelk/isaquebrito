@@ -39,13 +39,5 @@
                     <div class="col-12">
                         <?php get_template_part('index','slider'); ?>
                     </div>
-                    <div class="w-100"></div>
-                    <div class="col-12 buscar">
-                        <div class="row">
-                            <div class="col"></div>
-                            <div class="col"></div>
-                            <div class="col"></div>
-                        </div>
-                    </div>
                 </div>
             </div>

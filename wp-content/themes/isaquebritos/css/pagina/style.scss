@@ -1,6 +1,11 @@
-
+// VARIAVEIS 
+    @import "../helpers/variaveis";
+//MIXIN
+   //@import "../helpers/mixin";  
+//
 *{padding:0px;margin:0px;}
-html,body{overflow-x:hidden;}
+
+html,body{overflow-x:hidden;background-color:$CorCinzaClaro1;}
 
 .main{
     
