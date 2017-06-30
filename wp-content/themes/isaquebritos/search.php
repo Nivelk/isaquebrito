@@ -5,7 +5,7 @@
         <form>
         <div class="form-group row">
             <div class="col"></div>
-            <div class="col-3">
+            <div class="col-2">
                 <select class="form-control form-control-lg">
                     <option>Comprar ou Alugar</option>
                 </select>
@@ -15,7 +15,7 @@
                     <option>Todos</option>
                 </select>
             </div>
-            <div class="col-4">
+            <div class="col-3">
                 <input type="text" class="form-control form-control-lg" placeholder=""> 
             </div>
             <div class="col-2">
