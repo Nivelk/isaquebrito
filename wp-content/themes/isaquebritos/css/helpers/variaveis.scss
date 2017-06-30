@@ -1,7 +1,8 @@
 $CorBranco : #ffffff;
+$CorPreto : #000000;
 
 
 // opacity 
 $Opacity: 0.5;
-
 $CORBRANCO:fade-out($CorBranco,$Opacity);
+$CORPRETO:fade-out($CorPreto,$Opacity);

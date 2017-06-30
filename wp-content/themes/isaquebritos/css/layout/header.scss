@@ -3,6 +3,17 @@
 //MIXIN
    //@import "../helpers/mixin";  
 //
-header{position:fixed;top:0px;
-    .container-fluid{background: $CORBRANCO;}
+header{position:fixed;top:0px;width:100%;z-index:100;
+    .container-fluid{background: $CORBRANCO;
+        .row{
+            .col{}
+        }
+    }
+}
+//header
+.container-fluid{z-index:1;
+    .row{
+        .col-12{padding:0px;}
+        .buscar{background:$CORPRETO;height:150px;}
+    }
 }
