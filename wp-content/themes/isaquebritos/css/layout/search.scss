@@ -1,0 +1,15 @@
+.search{padding-top:30px;padding-bottom:10px;
+    .row{
+        .col-2,.col-3,.col-4{padding:0px;}
+        .col-2{
+            .btn{border-radius:0px;background:$CorLarajaClaro;border-color:$CorLarajaClaro;}
+            .btn:hover{background:$CorLarajaClaro1;}
+        }
+        .col-2,.col-3{
+            select{border-radius:0px;}
+        }
+        .col-4{
+            input[type="text"]{border-radius:0px;}
+        }
+    }
+}
