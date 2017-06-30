@@ -49,40 +49,6 @@
 
     <style>
         
-        /* jssor slider bullet navigator skin 05 css */
-        /*
-        .jssorb05 div           (normal)
-        .jssorb05 div:hover     (normal mouseover)
-        .jssorb05 .av           (active)
-        .jssorb05 .av:hover     (active mouseover)
-        .jssorb05 .dn           (mousedown)
-        */
-        .jssorb05 {
-            position: absolute;
-        }
-        .jssorb05 div, .jssorb05 div:hover, .jssorb05 .av {
-            position: absolute;
-            /* size of bullet elment */
-            width: 16px;
-            height: 16px;
-            background: url('images/slider/b05.png') no-repeat;
-            overflow: hidden;
-            cursor: pointer;
-        }
-        .jssorb05 div { background-position: -7px -7px; }
-        .jssorb05 div:hover, .jssorb05 .av:hover { background-position: -37px -7px; }
-        .jssorb05 .av { background-position: -67px -7px; }
-        .jssorb05 .dn, .jssorb05 .dn:hover { background-position: -97px -7px; }
-
-        /* jssor slider arrow navigator skin 22 css */
-        /*
-        .jssora22l                  (normal)
-        .jssora22r                  (normal)
-        .jssora22l:hover            (normal mouseover)
-        .jssora22r:hover            (normal mouseover)
-        .jssora22l.jssora22ldn      (mousedown)
-        .jssora22r.jssora22rdn      (mousedown)
-        */
         .jssora22l, .jssora22r {
             display: block;
             position: absolute;
@@ -90,7 +56,6 @@
             width: 40px;
             height: 58px;
             cursor: pointer;
-            background: url('images/slider/a22.png') center center no-repeat;
             overflow: hidden;
         }
         .jssora22l { background-position: -10px -31px; }
@@ -106,29 +71,30 @@
         <!-- Loading Screen -->
         <div data-u="loading" style="position: absolute; top: 0px; left: 0px;">
             <div style="filter: alpha(opacity=70); opacity: 0.7; position: absolute; display: block; top: 0px; left: 0px; width: 100%; height: 100%;"></div>
-            <div style="position:absolute;display:block;background:url('images/slider/loading.gif') no-repeat center center;top:0px;left:0px;width:100%;height:100%;"></div>
+            <div style="position:absolute;display:block;top:0px;left:0px;width:100%;height:100%;">
+                <img src="<?php echo get_template_directory_uri() . '/images/slider/loading.gif';?>"/>
+            </div>
         </div>
         <div data-u="slides" style="cursor: default; position: relative; top: 0px; left: 0px; width: 1300px; height: 500px; overflow: hidden;">
             <div data-p="225.00" style="display: none;">
-                <img data-u="image" src="<?php echo get_template_directory_uri() .'/images/slider/red.jpg';?>" />
+                <img data-u="image" src="<?php echo get_template_directory_uri() .'/images/slider/slider-01.jpg';?>" />
                 <div style="position: absolute; top: 30px; left: 30px; width: 480px; height: 120px; font-size: 50px; color: #ffffff; line-height: 60px;">TOUCH SWIPE SLIDER</div>
                 <div style="position: absolute; top: 300px; left: 30px; width: 480px; height: 120px; font-size: 30px; color: #ffffff; line-height: 38px;">Build your slider with anything, includes image, content, text, html, photo, picture</div>
             </div>
             <div data-p="225.00" style="display: none;">
-                <img data-u="image" src="<?php echo get_template_directory_uri() . '/images/slider/purple.jpg';?>" />
+                <img data-u="image" src="<?php echo get_template_directory_uri() . '/images/slider/slider-02.jpg';?>" />
             </div>
             <div data-p="225.00" data-po="80% 55%" style="display: none;">
-                <img data-u="image" src="<?php echo get_template_directory_uri() . '/images/slider/blue.jpg';?>" />
+                <img data-u="image" src="<?php echo get_template_directory_uri() . '/images/slider/slider-03.jpg';?>" />
             </div>
             <a data-u="add" href="http://www.jssor.com/demos/full-width-slider.slider" style="display:none">Full Width Slider</a>
         
         </div>
-        <!-- Bullet Navigator -->
-        <div data-u="navigator" class="jssorb05" style="bottom:16px;right:16px;" data-autocenter="1">
-            <!-- bullet navigator item prototype -->
-            <div data-u="prototype" style="width:16px;height:16px;"></div>
-        </div>
         <!-- Arrow Navigator -->
-        <span data-u="arrowleft" class="jssora22l" style="top:0px;left:12px;width:40px;height:58px;" data-autocenter="2"></span>
-        <span data-u="arrowright" class="jssora22r" style="top:0px;right:12px;width:40px;height:58px;" data-autocenter="2"></span>
+        <span data-u="arrowleft" class="jssora22l" style="top:0px;left:12px;width:40px;height:58px;" data-autocenter="2">
+            <img src="<?php echo get_template_directory_uri() . '/images/slider/22l.png';?>"/>
+        </span>
+        <span data-u="arrowright" class="jssora22r" style="top:0px;right:12px;width:40px;height:58px;" data-autocenter="2">
+            <img src="<?php echo get_template_directory_uri() . '/images/slider/22r.png';?>"/>
+        </span>
     </div>
