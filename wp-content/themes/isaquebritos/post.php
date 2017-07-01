@@ -8,7 +8,13 @@
 <article <?php post_class(); ?> style="border:solid 1px red;">
 	<div class="feature-image">
 		<a href="<?php the_permalink(); ?>">
+            
 			<?php
+                $image_attributes = wp_get_attachment_image_src( $attachment->ID );
+                    if ( $image_attributes ) : ?>
+                         <img src="<?php echo $image_attributes[0]; ?>" width="<?php echo $image_attributes[1]; ?>" height="<?php echo $image_attributes[2]; ?>" />
+                    <?php endif; ?>
+            <?php
 	           // Renders the image for the posts
 	          // $image_url = ansimuz_post_image();
 	           //if(!$image_url) 
@@ -33,7 +39,7 @@
 			<a href="<?php the_permalink(); ?>" class="post-heading" ><?php the_title() ?></a>
 			<?php the_excerpt() ?>
 			
-			<p><a href="<?php the_permalink(); ?>" class="learnmore"><?php _e('Learn More'); ?></a></p>
+			<p><a href="<?php the_permalink(); ?>" class="learnmore"><?php _e('Veja Mais'); ?></a></p>
 		</div>
 		
 		<?php 
