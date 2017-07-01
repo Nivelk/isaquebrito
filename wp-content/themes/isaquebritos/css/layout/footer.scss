@@ -1,1 +1,3 @@
-footer{width:100%;background:$CorCinzaEscuro;bottom:0px;position:absolute;}
+footer{width:100%;background:$CorCinzaEscuro;bottom:0px;position:relative;z-index:50;
+    .container-fluid{color:$CorBege;}
+}

@@ -16,11 +16,11 @@
 		<script src="https://cdnjs.cloudflare.com/ajax/libs/tether/1.4.0/js/tether.min.js" integrity="sha384-DztdAPBWPRXSA/3eYEEUWrWCy7G5KFbe8fFjk5JAIxUYHKkDx6Qin1DkWx51bBrb" crossorigin="anonymous"></script>
 		<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.6/js/bootstrap.min.js" integrity="sha384-vBWWzlZJ8ea9aCX4pEW3rVHjgjt7zpkNpZk+02D9phzyeVkE+jo0ieGizqPLForn" crossorigin="anonymous"></script>
         
-        <link rel="stylesheet" href="<?php //echo get_template_directory_uri() . '/css/componentes/bootsstrap/bootsstrap.min.css'; ?>"/>
+        <!--<link rel="stylesheet" href="<?php //echo get_template_directory_uri() . '/css/componentes/bootsstrap/bootsstrap.min.css'; ?>"/>
         <link rel="stylesheet" href="<?php //echo get_template_directory_uri() . '/css/componentes/bootsstrap/bootstrap-grid.min.css'; ?>"/>
         <link rel="stylesheet" href="<?php //echo get_template_directory_uri() . '/css/componentes/bootsstrap/bootstrap-reboot.min.css'; ?>"/>
         <script src="<?php //echo get_template_directory_uri() . '/js/componentes/bootsstrap.min.js'; ?>"></script>
-        <script src="<?php //echo get_template_directory_uri() . '/js/componentes/jquery-1.12.3.min.js';?>"></script>
+        <script src="<?php //echo get_template_directory_uri() . '/js/componentes/jquery-1.12.3.min.js';?>"></script>-->
         <!--Fim CDN Bootsstrap -->
         <title><?php wp_title( '|', true, 'right'); ?><?php bloginfo('name'); ?> </title>
     </head>
@@ -30,10 +30,8 @@
                 <div class="container-fluid">
                     <div class="row">
                         <div class="col-3">
-                            <center>
                                 <img src="<?php echo get_template_directory_uri().'/images/logo.png';?>"/>
-                                <p>ISAQUE DE BRITO SANTOS<br>Corretor de Imóveis, CRECI: 115.193</p>
-                            </center>
+                                <span>ISAQUE DE BRITO SANTOS<br>Corretor de Imóveis, CRECI: 115.193</span>
                         </div>
                         <div class="col"></div>
                     </div>
