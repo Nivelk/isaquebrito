@@ -1,0 +1,13 @@
+.container{
+    .row{
+        .col-3{padding-top:10px;padding-bottom:10px;
+            .row{
+                .foto{z-index:1;}
+                .box{width:250px;position:absolute;bottom:0px;z-index:2;margin-left:14px;margin-right:10px;margin-bottom:10px;background:$CORLARAJACLARO;color:$CorBranco;padding-left:10px;padding-right:10px;
+                    .btn{border-color:$CorBranco;color:$CorBranco;}
+                    .btn:hover{background:$CorBranco;color:$CorLarajaClaro;}
+                }
+            }
+        }
+    }
+}

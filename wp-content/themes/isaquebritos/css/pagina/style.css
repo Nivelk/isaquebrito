@@ -13,6 +13,11 @@ html, body { overflow-x: hidden; background-image: url(../../images/noise.png); 
 .main .sliderSearch .row .search .row .col-2 .btn:hover { background: #963f25; }
 .main .sliderSearch .row .search .row .col-2 select, .main .sliderSearch .row .search .row .col-3 select { border-radius: 0px; font-size: 15px; text-align: left; }
 .main .sliderSearch .row .search .row .col-3 input[type="text"] { border-radius: 0px; }
+.main .container .row .col-3 { padding-top: 10px; padding-bottom: 10px; }
+.main .container .row .col-3 .row .foto { z-index: 1; }
+.main .container .row .col-3 .row .box { width: 250px; position: absolute; bottom: 0px; z-index: 2; margin-left: 14px; margin-right: 10px; margin-bottom: 10px; background: rgba(203, 84, 50, 0.5); color: #ffffff; padding-left: 10px; padding-right: 10px; }
+.main .container .row .col-3 .row .box .btn { border-color: #ffffff; color: #ffffff; }
+.main .container .row .col-3 .row .box .btn:hover { background: #ffffff; color: #cb5432; }
 .main footer { width: 100%; background: #2d2d2d; bottom: 0px; position: relative; z-index: 50; }
 .main footer .container-fluid { color: #dcd2be; }
 

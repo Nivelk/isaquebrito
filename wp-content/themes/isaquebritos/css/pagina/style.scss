@@ -15,5 +15,7 @@ html,body{overflow-x:hidden;background-image:url(../../images/noise.png);}
             @import '../layout/search';
         }
     }
+    @import '../layout/content';
+    
     @import '../layout/footer';
 }
