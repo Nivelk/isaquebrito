@@ -9,7 +9,6 @@
         <link rel="shortcut icon" href="<?php echo get_template_directory_uri() . '/images/favicon.png'; ?>"/> 
         <link rel="pingback" href="<?php bloginfo( 'pingback_url' ); ?>">
         <?php wp_head(); ?>
-        <link rel="stylesheet" href="<?php echo get_template_directory_uri() . '/css/pagina/style.css'; ?>"/>
         <!--CDN Bootsstrap -->
         <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.6/css/bootstrap.min.css" integrity="sha384-rwoIResjU2yc3z8GV/NPeZWAv56rSmLldC3R/AZzGRnGxQQKnKkoFVhFQhNUwEyJ" crossorigin="anonymous"/>
 		<script src="https://code.jquery.com/jquery-3.1.1.slim.min.js" integrity="sha384-A7FZj7v+d/sdmMqp/nOQwliLvUsJfDHW+k9Omg/a/EheAdgtzNs3hpfag6Ed950n" crossorigin="anonymous"></script>
@@ -33,9 +32,4 @@
             </header>
             <div class="container-fluid sliderSearch">
                 <div class="row">
-                    <!--sliderSearch -->
-                    <div class="col-12">
-                        <?php get_template_part('index','slider'); ?>
-                    </div>
-                    <div class="w-100"></div>
-                    
+                    <!--sliderSearch -->                   

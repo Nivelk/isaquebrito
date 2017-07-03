@@ -1,4 +1,5 @@
-<script src="<?php echo get_template_directory_uri() . '/js/componentes/jssor/jssor.slider-21.1.5.mini.js'; ?>"></script>
+<div class="col-12">
+    <script src="<?php echo get_template_directory_uri() . '/js/componentes/jssor/jssor.slider-21.1.5.mini.js'; ?>"></script>
     <script>
         jQuery(document).ready(function ($) {
             
@@ -98,3 +99,5 @@
             <img src="<?php echo get_template_directory_uri() . '/images/slider/22r.png';?>"/>
         </span>
     </div>
+</div>
+<div class="w-100"></div>
