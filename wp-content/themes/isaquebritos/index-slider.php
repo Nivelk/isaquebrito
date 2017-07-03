@@ -1,5 +1,4 @@
 <div class="col-12">
-    <script src="<?php echo get_template_directory_uri() . '/js/componentes/jssor/jssor.slider-21.1.5.mini.js'; ?>"></script>
     <script>
         jQuery(document).ready(function ($) {
             
