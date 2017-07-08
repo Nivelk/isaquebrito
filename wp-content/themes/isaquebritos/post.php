@@ -8,7 +8,7 @@
                     <?php
                         $imagenUrl = '';
                         $imagenId = get_post_thumbnail_id();
-                        $imagenUrl = wp_get_attachment_image_src($imagenId);
+                        $imagenUrl = wp_get_attachment_image_src($imagenId, array(150));
                     
                         if($imagenUrl):
                     ?>

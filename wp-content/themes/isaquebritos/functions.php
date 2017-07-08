@@ -1,8 +1,11 @@
 <?php
 //suporte para tema
     add_theme_support('post-thumbnails');
+
 //suporte para formado de arquivo para adicionar
     add_theme_support( 'post-formats', array('link', 'video', 'quote', 'image' ));
+//suporte para descrição
+    add_post_type_support('page','excerpt');
 //renomeando os caminho de diretorio
     //DEFINE_CSS
     define('DIR_PAGINAS', get_template_directory_uri()."/css/pagina/");
@@ -22,6 +25,16 @@
         wp_enqueue_script('bootstrap', BOOTSSTRAP_JS , array('jquery'), 1.1, true);
         wp_enqueue_script('tether', TETHER_JS , array('jquery'), 1.1, true);
     }
-    //adicionar as funções no WordPress
+//adicionar as funções no WordPress
     add_action('wp_enqueue_scripts','load_scriptStyle');
+//funções de admin
+    function admin_pageCategoria(){
+        
+    }
+//funcão para excerpt_length
+    function admin_excerptLength($length){
+        return 20;
+    }
+//adiciona função length execerpt
+    add_filter('excerpt_length' , 'admin_excerptLength', 999);
 ?>
