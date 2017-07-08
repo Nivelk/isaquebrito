@@ -1,5 +1,5 @@
 header{position:fixed;top:0px;width:100%;z-index:100;
-    .container-fluid{background: $CORBRANCO;box-shadow:0px 8px 10px $CORPRETO;padding-top:5px;
+    .container-fluid{background: $CorBranco;padding-top:5px;
         .row{
             .col-3{font-size:12px;}
             .col{}
@@ -9,6 +9,20 @@ header{position:fixed;top:0px;width:100%;z-index:100;
 //header
 .container-fluid{z-index:1;
     .row{
-        .col-12{padding:0px;}
+        .col-12{padding:0px;margin-top:70px;}
     }
 }
+
+
+
+// MEDIA BREAKPOINT
+
+@include media-breakpoint-only(xs) {
+    header{
+        .container-fluid{background:$CorBege;}
+    }
+}
+    //@include media-breakpoint-only(sm) {}
+    //@include media-breakpoint-only(md) {}
+   // @include media-breakpoint-only(lg) {}
+   // @include media-breakpoint-only(xl) {}
