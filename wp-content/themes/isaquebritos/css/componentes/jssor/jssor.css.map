@@ -1,0 +1,7 @@
+{
+"version": 3,
+"mappings": "AAGC,kBAAS,GAAC,KAAK,EAAC,KAAK,EAAE,MAAM,EAAC,IAAI,EAAC,UAAU,ECM9B,OAAO,EDNyC,WAAW,EAAC,KAAK,EAAE,MAAM,EAAC,OAAO",
+"sources": ["jssor.scss","../../helpers/variaveis.scss"],
+"names": [],
+"file": "jssor.css"
+}
