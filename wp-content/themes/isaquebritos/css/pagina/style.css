@@ -3,10 +3,10 @@
 html, body { overflow-x: hidden; background-image: url(../../images/noise.png); }
 
 .main header { position: fixed; top: 0px; width: 100%; z-index: 100; }
-.main header .container-fluid { background: rgba(255, 255, 255, 0.5); box-shadow: 0px 8px 10px rgba(0, 0, 0, 0.5); padding-top: 5px; }
+.main header .container-fluid { background: #ffffff; padding-top: 5px; }
 .main header .container-fluid .row .col-3 { font-size: 12px; }
 .main .container-fluid { z-index: 1; }
-.main .container-fluid .row .col-12 { padding: 0px; }
+.main .container-fluid .row .col-12 { padding: 0px; margin-top: 70px; }
 .main .sliderSearch .row .search { padding-top: 30px; padding-bottom: 10px; }
 .main .sliderSearch .row .search .row .col-2, .main .sliderSearch .row .search .row .col-3, .main .sliderSearch .row .search .row .col-4 { padding: 0px; }
 .main .sliderSearch .row .search .row .col-2 .btn { border-radius: 0px; background: #cb5432; border-color: #cb5432; }
