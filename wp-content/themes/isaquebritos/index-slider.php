@@ -46,10 +46,10 @@
         
         </div>
         <!-- Arrow Navigator -->
-        <span data-u="arrowleft" class="jssora22l btn-slide"  data-autocenter="2">
+        <span data-u="arrowleft" class="jssora22l btn-slide" style="left:12px;" data-autocenter="2">
             <img src="<?php echo get_template_directory_uri() . '/images/slider/22l.png';?>"/>
         </span>
-        <span data-u="arrowright" class="jssora22r btn-slide"  data-autocenter="2">
+        <span data-u="arrowright" class="jssora22r btn-slide" style="right:12px;"  data-autocenter="2">
             <img src="<?php echo get_template_directory_uri() . '/images/slider/22r.png';?>"/>
             
         </span>
