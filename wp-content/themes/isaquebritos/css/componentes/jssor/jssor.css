@@ -1,3 +1,26 @@
-#jssor_1 #bt-thema { width: 300px; height: 60px; background: #CB5432; margin-left: 100px; cursor: pointer; }
+.jssora22l, .jssora22r { display: block; position: absolute; /* size of arrow element */ width: 40px; height: 58px; cursor: pointer; overflow: hidden; }
+
+.jssora22l { background-position: -10px -31px; }
+
+.jssora22r { background-position: -70px -31px; }
+
+.jssora22l:hover { background-position: -130px -31px; }
+
+.jssora22r:hover { background-position: -190px -31px; }
+
+.jssora22l.jssora22ldn { background-position: -250px -31px; }
+
+.jssora22r.jssora22rdn { background-position: -310px -31px; }
+
+#jssor_1 .slide-main { cursor: default; position: relative; top: 0px; left: 0px; width: 1300px; height: 500px; overflow: hidden; color: #ffffff; }
+#jssor_1 .slide-main .slide1 .container .row .col-12 { padding-bottom: 100px; padding-top: 30px; }
+#jssor_1 .slide-main .slide1 .container .row .col-12 h3 { text-align: center; }
+#jssor_1 .slide-main .slide1 .container .row .col { padding-top: 50px; }
+#jssor_1 .slide-main .slide1 .container .row .col a { background: #CB5432; border-color: #CB5432; margin-bottom: 45px; border-radius: 0px; }
+#jssor_1 .slide-main .slide1 .container .row .col a:nth-child(1) { width: 300px; margin-left: 50px; }
+#jssor_1 .slide-main .slide1 .container .row .col a:nth-child(2) { width: 400px; }
+#jssor_1 .btn-slide { top: 0px; width: 40px; height: 58px; }
+#jssor_1 .btn-slide:nth-child(1) { left: 12px; }
+#jssor_1 .btn-slide:nth-child(2) { right: 12px; }
 
 /*# sourceMappingURL=jssor.css.map */
