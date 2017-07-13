@@ -1,67 +1,59 @@
 <div class="col-12">
     
     <?php wp_enqueue_script('jssor/index', get_template_directory_uri() . '/js/componentes/jssor/jssor.index.js'); ?>
-    
-    
-    <style>
-        
-        .jssora22l, .jssora22r {
-            display: block;
-            position: absolute;
-            /* size of arrow element */
-            width: 40px;
-            height: 58px;
-            cursor: pointer;
-            overflow: hidden;
-        }
-        .jssora22l { background-position: -10px -31px; }
-        .jssora22r { background-position: -70px -31px; }
-        .jssora22l:hover { background-position: -130px -31px; }
-        .jssora22r:hover { background-position: -190px -31px; }
-        .jssora22l.jssora22ldn { background-position: -250px -31px; }
-        .jssora22r.jssora22rdn { background-position: -310px -31px; }
-        
-    </style>
-
-
+   
     <div id="jssor_1" style="width:1300px; height:500px;overflow: hidden; visibility: hidden;">
         <!-- Loading Screen -->
-        <div data-u="loading" style="position: absolute; top: 0px; left: 0px;">
-            <div style="filter: alpha(opacity=70); opacity: 0.7; position: absolute; display: block; top: 0px; left: 0px; width: 100%; height: 100%;"></div>
-            <div style="position:absolute;display:block;top:0px;left:0px;width:100%;height:100%;">
-                <img src="<?php echo get_template_directory_uri() . '/images/slider/loading.gif';?>"/>
-            </div>
-        </div>
-        <div data-u="slides" style="cursor: default; position: relative; top: 0px; left: 0px; width: 1300px; height: 500px; overflow: hidden;">
-            
+        <div class="slide-main" data-u="slides" >
             <!-- Slider 01-->
             
-            <div data-p="225.00" style="display: none;">
+            <div data-p="225.00" class="slide1" style="display: none;">
                 <img data-u="image" src="<?php echo get_template_directory_uri() .'/images/slider/slider-01.jpg';?>" />
-                <div style="position: absolute; top: 30px; left: 30px; width: 480px; height: 120px; font-size: 50px; color: #ffffff; line-height: 60px;">TOUCH SWIPE SLIDER</div>
-                <div style="position: absolute; top: 300px; left: 30px; width: 480px; height: 120px; font-size: 30px; color: #ffffff; line-height: 38px;">Build your slider with anything, includes image, content, text, html, photo, picture</div>
+                <div class="container">
+                    <div class="row">
+                        <div class="col-12">
+                                <h3>Apartamentos em São Paulo na Zona Leste, Oeste, Norte, Sul, Sudeste e ABC.</h3>
+                        </div>
+                        <div class="w-100"></div>
+                        <div class="col"></div>
+                        <div class="col">
+                            <a href="#" class="btn btn-primary btn-lg" role="button">botao</a>
+                            <a href="#" class="btn btn-primary btn-lg" role="button">botao</a>
+                        </div>
+                        <div class="col"></div>    
+                    </div>
+                    
+                </div>
             </div>
             
             <!-- Slider 02 -->
             
-            <div data-p="225.00" style="display: none;">
+            <div data-p="225.00" class="slide2" style="display: none;" >
                 <img data-u="image" src="<?php echo get_template_directory_uri() . '/images/slider/slider-02.jpg';?>" />
+                <div class="container">
+                    <div>Apartamentos em São Paulo na Zona Leste, Oeste, Norte, Sul, Sudeste e ABC.</div>
+                </div>
             </div>
             
             <!-- Slider 03 -->
             
-            <div data-p="225.00" data-po="80% 55%" style="display: none;">
+            <div data-p="225.00" data-po="80% 55%" class="slide3" style="display:none;">
                 <img data-u="image" src="<?php echo get_template_directory_uri() . '/images/slider/slider-03.jpg';?>" />
+                <div class="container">
+                    <div>Apartamentos em São Paulo na Zona Leste, Oeste, Norte, Sul, Sudeste e ABC.</div>
+                </div>
             </div>
         
         </div>
         <!-- Arrow Navigator -->
-        <span data-u="arrowleft" class="jssora22l" style="top:0px;left:12px;width:40px;height:58px;" data-autocenter="2">
+        <span data-u="arrowleft" class="jssora22l btn-slide"  data-autocenter="2">
             <img src="<?php echo get_template_directory_uri() . '/images/slider/22l.png';?>"/>
         </span>
-        <span data-u="arrowright" class="jssora22r" style="top:0px;right:12px;width:40px;height:58px;" data-autocenter="2">
+        <span data-u="arrowright" class="jssora22r btn-slide"  data-autocenter="2">
             <img src="<?php echo get_template_directory_uri() . '/images/slider/22r.png';?>"/>
+            
         </span>
     </div>
+    
 </div>
 <div class="w-100"></div>
